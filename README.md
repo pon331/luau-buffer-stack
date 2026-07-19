@@ -113,7 +113,7 @@ Stack:push_f32(7) -- pos Y
 Stack:push_f32(4) -- pos X
 -- Pushing position in reverse order for easy reading
 
-SomeRemoteEvent:FireAllClient(Stack:to_buffer)
+SomeRemoteEvent:FireAllClient(Stack:to_buffer())
 
 
 -- Clientside:
